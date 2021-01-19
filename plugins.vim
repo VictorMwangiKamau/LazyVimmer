@@ -18,12 +18,12 @@ else
 endif
 
 " Plugins for my stack
-Plug 'sheerun/vim-polyglot'
+" Plug 'sheerun/vim-polyglot'
 " Plug 'ap/vim-css-color', { 'for': ['css', 'scss' ,'vue', 'html'] }
 Plug 'mattn/emmet-vim', { 'for': ['html', 'php', 'svelte', 'vue', 'javacsript', 'typescript' ]}
 
 " Utility plugins
-Plug 'ryanoasis/vim-devicons'
+" Plug 'ryanoasis/vim-devicons'
 Plug 'preservim/nerdcommenter'
 Plug 'jiangmiao/auto-pairs'
 Plug 'frazrepo/vim-rainbow'
