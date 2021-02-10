@@ -18,9 +18,9 @@ else
 endif
 
 " Plugins for my stack
+Plug 'mattn/emmet-vim', { 'for': ['html', 'php', 'svelte', 'vue', 'javacsript', 'typescript' ]}
 " Plug 'sheerun/vim-polyglot'
 " Plug 'ap/vim-css-color', { 'for': ['css', 'scss' ,'vue', 'html'] }
-Plug 'mattn/emmet-vim', { 'for': ['html', 'php', 'svelte', 'vue', 'javacsript', 'typescript' ]}
 
 " Utility plugins
 " Plug 'ryanoasis/vim-devicons'
@@ -34,6 +34,11 @@ Plug 'tpope/vim-surround'
 Plug 'itchyny/lightline.vim'
 Plug 'shougo/vimfiler.vim'
 Plug 'shougo/unite.vim' " vimfiler requires this plugin for it to work
+" Plug 'moll/vim-node'
+Plug 'gko/vim-coloresque'
+" Plug 'leafoftree/vim-svelte-plugin'
+" Plug 'evanleck/vim-svelte', {'branch': 'main'}
+Plug 'xuyuanp/scrollbar.nvim'
 
 " I do not use these plugins so much
 
