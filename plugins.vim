@@ -19,11 +19,16 @@ endif
 
 " Plugins for my stack
 Plug 'mattn/emmet-vim', { 'for': ['html', 'php', 'svelte', 'vue', 'javacsript', 'typescript' ]}
+Plug 'ap/vim-css-color', { 'for': ['css', 'scss' ,'vue', 'html'] }
+" Plug 'gko/vim-coloresque'
+" Plug 'moll/vim-node'
+" Plug 'leafoftree/vim-svelte-plugin'
+" Plug 'evanleck/vim-svelte', {'branch': 'main'}
 " Plug 'sheerun/vim-polyglot'
-" Plug 'ap/vim-css-color', { 'for': ['css', 'scss' ,'vue', 'html'] }
 
 " Utility plugins
 " Plug 'ryanoasis/vim-devicons'
+Plug 'tpope/vim-eunuch'
 Plug 'preservim/nerdcommenter'
 Plug 'jiangmiao/auto-pairs'
 Plug 'frazrepo/vim-rainbow'
@@ -34,10 +39,8 @@ Plug 'tpope/vim-surround'
 Plug 'itchyny/lightline.vim'
 Plug 'shougo/vimfiler.vim'
 Plug 'shougo/unite.vim' " vimfiler requires this plugin for it to work
-" Plug 'moll/vim-node'
-Plug 'gko/vim-coloresque'
-" Plug 'leafoftree/vim-svelte-plugin'
-" Plug 'evanleck/vim-svelte', {'branch': 'main'}
+Plug 'machakann/vim-highlightedyank'
+Plug 'pechorin/any-jump.vim'
 Plug 'xuyuanp/scrollbar.nvim'
 
 " I do not use these plugins so much
@@ -45,7 +48,6 @@ Plug 'xuyuanp/scrollbar.nvim'
 " Plug 'rstacruz/vim-hyperstyle'
 " Plug 'junegunn/goyo.vim', { 'for': ['html', 'txt', 'md' ]}
 " Plug 'majutsushi/tagbar'
-
 " Initialize plugin system
 call plug#end()
 " end of plugin system

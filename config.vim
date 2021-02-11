@@ -83,7 +83,7 @@ set foldmethod=manual
 set number relativenumber
 
 " selecting a colorscheme 
-colorscheme solarized8_dark_low
+colorscheme gruvbox
 
 " the cursor to move fast
 set ttyfast
