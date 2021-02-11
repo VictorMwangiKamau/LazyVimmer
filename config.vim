@@ -82,8 +82,8 @@ set foldmethod=manual
 " number is relative number
 set number relativenumber
 
-" selecting a colorscheme 
-colorscheme gruvbox
+" selecting a colorscheme
+colorscheme Tomorrow-Night
 
 " the cursor to move fast
 set ttyfast
