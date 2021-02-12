@@ -27,7 +27,6 @@ Plug 'ap/vim-css-color', { 'for': ['css', 'scss' ,'vue', 'html'] }
 " Plug 'sheerun/vim-polyglot'
 
 " Utility plugins
-" Plug 'ryanoasis/vim-devicons'
 Plug 'tpope/vim-eunuch'
 Plug 'preservim/nerdcommenter'
 Plug 'jiangmiao/auto-pairs'
@@ -42,12 +41,11 @@ Plug 'shougo/unite.vim' " vimfiler requires this plugin for it to work
 Plug 'machakann/vim-highlightedyank'
 Plug 'pechorin/any-jump.vim'
 Plug 'xuyuanp/scrollbar.nvim'
-
-" I do not use these plugins so much
-
+" Plug 'ryanoasis/vim-devicons'
 " Plug 'rstacruz/vim-hyperstyle'
 " Plug 'junegunn/goyo.vim', { 'for': ['html', 'txt', 'md' ]}
 " Plug 'majutsushi/tagbar'
+
 " Initialize plugin system
 call plug#end()
 " end of plugin system
@@ -146,32 +144,5 @@ let g:NERDTrimTrailingWhitespace = 1
 " Enable NERDCommenterToggle to check all selected lines is commented or not
 let g:NERDToggleCheckAllLines = 1
 
-" These are the file extensions where this plugin is enabled.
-let g:closetag_filenames = '*.html,*.xhtml,*.phtml'
-
-" filenames like *.xml, *.xhtml, ...
-" This will make the list of non-closing tags self-closing in the specified files.
-let g:closetag_xhtml_filenames = '*.xhtml,*.jsx'
-
-" filetypes like xml, html, xhtml, ...
-" These are the file types where this plugin is enabled.
-let g:closetag_filetypes = 'html,xhtml,phtml'
-
-" This will make the list of non-closing tags self-closing in the specified files.
-let g:closetag_xhtml_filetypes = 'xhtml,jsx'
-
-" dict
-" Disables auto-close if not in a "valid" region (based on filetype)
-"
-let g:closetag_regions = {
-    \ 'typescript.tsx': 'jsxRegion,tsxRegion',
-    \ 'javascript.jsx': 'jsxRegion',
-    \ }
-
-" Shortcut for closing tags, default is '>'
-let g:closetag_shortcut = '>'
-
-" Add > at current position without closing the current tag, default is ''
-let g:closetag_close_shortcut = '<leader>>'
 " configuration for vim filer
 let g:vimfiler_as_default_explorer = 1

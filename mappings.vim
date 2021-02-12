@@ -17,7 +17,7 @@ nnoremap <leader>mc :set mouse=c<Cr>
 " save a file with leader w
 nnoremap <leader>w :w<Cr>
 
-" quit a file wht leader q
+" quit a file with leader q
 nnoremap <leader>q :q<Cr>
 
 " add semicolon to the end of a line
@@ -132,7 +132,7 @@ if has('nvim')
   tnoremap <C-v><Esc> <Esc>
 endif
 
-" creating a new line and secaping back to normal mode
+" creating a new line in normal mode
 nnoremap <Cr> o<ESC>
 nnoremap O O<ESC>
 

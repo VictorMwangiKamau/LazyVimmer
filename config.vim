@@ -3,7 +3,6 @@
 " Indent file depending on the type of the file
 filetype plugin indent on
 
-" set not compatible to vim
 set nocompatible
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -66,7 +65,7 @@ set ai
 " Smart indent
 set si
 
-" C indent
+" c indent
 set ci
 
 " Wrap lines
@@ -178,12 +177,8 @@ set ttimeoutlen=100
 
 " undo files
 set undofile
-set backup
-set swapfile
-
-set backupdir=/tmp//
-set directory=/tmp//
-set undodir=/tmp//
+set nobackup
+set noswapfile
 
 set modifiable
 

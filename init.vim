@@ -4,7 +4,7 @@
 "   \_/ |_|_|_|_|_| \__|
 
 " MKOLONI
-" Vic vimmer
+" VIC VIMMER
 
 source ~/.config/nvim/plugins.vim
 
